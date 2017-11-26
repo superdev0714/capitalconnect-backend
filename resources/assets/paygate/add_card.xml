@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pay="http://www.paygate.co.za/PayHOST">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <pay:SingleVaultRequest>
+            <pay:CardVaultRequest>
+                <pay:Account>
+                    <pay:PayGateId>{paygate_id}</pay:PayGateId>
+                    <pay:Password>{paygate_pass}</pay:Password>
+                </pay:Account>
+
+                <pay:CardNumber>{card_number}</pay:CardNumber>
+                <pay:CardExpiryDate>{expiry_date}</pay:CardExpiryDate>
+
+            </pay:CardVaultRequest>
+        </pay:SingleVaultRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

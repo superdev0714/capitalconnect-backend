@@ -1,0 +1,20 @@
+Raw XML
+-------
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE protocol SYSTEM "https://www.paygate.co.za/payxml/payxml_v4.dtd">
+<protocol ver="4.0" pgid="10011013800" pwd="test">
+<authtx cref="" cname="" cc="4000000000000002" exp="022020" budp="0" amt="20" cur="ZAR" cvv="000" rurl="http://localhost/pg_payxml_php_final.php" nurl="http://localhost/pg_payxml_php_notify.php" />
+</protocol>
+
+
+
+Raw XML
+-------
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE protocol SYSTEM "https://www.paygate.co.za/payxml/payxml_v4.dtd">
+<protocol ver="4.0" pgid="10011013800" pwd="test">
+<authtx cref="" cname="" cc="4000000000000002" exp="022020" budp="0" amt="20" cur="ZAR" cvv="000" rurl="http://localhost/pg_payxml_php_final.php" nurl="http://localhost/pg_payxml_php_notify.php" />
+</protocol>
+
+
+
